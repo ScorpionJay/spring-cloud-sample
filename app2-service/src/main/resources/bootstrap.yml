@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: app2-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+server:
+  port: 5002
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
