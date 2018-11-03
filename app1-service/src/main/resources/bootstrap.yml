@@ -15,6 +15,12 @@ spring:
       #指定Config Server在服务发现组件中的serviceId 默认是configserver
       service-id: configuration
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+
+
 server:
   port: 5001
 
